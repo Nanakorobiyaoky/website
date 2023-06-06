@@ -1,4 +1,5 @@
 для запуска сервера необходимо, находясь в директории /api-gateway, выполнить следующие команды:
+- npm install
 - npm run build
 - docker pull rabbitmq:3.11.13-management
 - docker pull node:18.14.0
