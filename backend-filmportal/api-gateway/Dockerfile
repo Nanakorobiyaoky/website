@@ -2,7 +2,7 @@ FROM node:18.14.0
 
 COPY ./dist ./dist
 
-COPY ./static ./dist/static
+COPY ./src/static ./dist/static
 
 COPY ./*.json .
 
